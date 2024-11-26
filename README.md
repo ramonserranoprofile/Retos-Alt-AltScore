@@ -1,11 +1,11 @@
 Installing Virtual environment
  - python -m venv .venv
 Activating Virtual environment
- - source "myenv/Scripts/activate" on Windows environment
- - source "myenv/bin/activate" on linux environment
+ - source ".venv/Scripts/activate" on Windows environment
+ - source .venv/bin/activate on linux environment
 
 Installing dependencies:
- - pip install requests
+ - pip install requests Flask
 
 Creaing dependencies list:
  - pip freeze > requirements.txt
